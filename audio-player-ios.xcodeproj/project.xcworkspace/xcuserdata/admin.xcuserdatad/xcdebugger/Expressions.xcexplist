@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "AESDipher::decrypt(unsigned char*, unsigned char*, int, unsigned char*, unsigned char*):aes_dipher.cc">
+      </ContextState>
+      <ContextState
+         contextName = "-[SmSong audioPlayerDidFinishPlaying:successfully:]:SmSong.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SmSong doTick]:SmSong.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SigmaAudioPlayer play:]:SigmaAudioPlayer.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SmSong setCurrentTime:]:SmSong.m">
+      </ContextState>
+      <ContextState
+         contextName = "main:main.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SmSong decryptFramesFrom:length:]:SmSong.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "*start">
+            </PersistentString>
+            <PersistentString
+               value = "[_encBuffer bytes]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SmSong decryptFrameFrom:length:]:SmSong.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SmSong calculateFramePosition]:SmSong.m">
+      </ContextState>
+      <ContextState
+         contextName = "Decoder::calTotalFrames(unsigned char*):Decoder.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "AESDipher::xorWithIv(unsigned char*):aes_dipher.cc">
+      </ContextState>
+      <ContextState
+         contextName = "-[SmSong prepareSong]:SmSong.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "&amp;_decBuffer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__31-[SigmaAudioPlayer decryptMore]_block_invoke:SigmaAudioPlayer.m">
+      </ContextState>
+      <ContextState
+         contextName = "SigmaDRM::decryptFrame(unsigned char*, unsigned char*, unsigned int):SigmaDRM.cpp">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
