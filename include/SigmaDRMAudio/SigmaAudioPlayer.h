@@ -24,7 +24,7 @@
 - (void) onTimeUpdate:(float)currentTime;
 - (void) onDurationChange:(float)duration;
 - (void) onEnded;
-- (void) onError:(NSError*)error;
+- (void) onError:(NSString*)errorMessage;
 - (void) onInterruptionBegan;
 - (void) onInterruptionEnded;
 - (void) onFileSavingWithUrl:(NSString*)url andFilePath:(NSString*)filePath withPercent:(float)percent;
@@ -49,7 +49,7 @@
 - (void) stop;
 - (void) saveFileWithPath:(NSString*)filePath;
 - (void) saveOtherFileWithUrl:(NSString*)url andFilePath:(NSString*)filePath;
-- (BOOL)isURL:(NSString*)path;
+- (BOOL) isURL:(NSString*)path;
 @end
 
 #endif /* Player_h */

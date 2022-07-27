@@ -233,7 +233,7 @@
     NSLog(@"\t* Ended");
 }
 
-- (void) onError:(NSError *)error{
-    NSLog(@"Error %@", [error description]);
+- (void) onError:(NSString *)errorMessage{
+    NSLog(@"Error %@", errorMessage);
 }
 @end
