@@ -71,20 +71,20 @@
 
 - EventsListener
 
-  | Name                                        | Description                                                                            |
-  | ------------------------------------------- | -------------------------------------------------------------------------------------- |
-  | onLoadStart                                 | Sự kiện xảy ra khi quá trình tải dữ liệu bắt đầu                                       |
-  | onProgress                                  | Sự kiện xảy ra khi ứng dụng tải tài nguyên, đồng thời thể hiện phần trăm file được lưu |
-  | onLoaded                                    | Sự kiện xảy ra khi quá trình tải dữ liệu kết thúc                                      |
-  | onDurationChange                            | Sự kiện xảy ra khi thời lượng phát thay đổi                                            |
-  | onTimeUpdate                                | Sự kiện xảy ra khi thời gian hiện tại (so với thời gian bắt đầu) thay đổi              |
-  | onEnded                                     | Sự kiện xảy ra khi phát đến cuối                                                       |
-  | onCanPlay                                   | Sự kiện xảy ra khi nội dung sẵn sàng để phát                                           |
-  | onStateChange                               | Sự kiện xảy ra khi trình phát thay đổi trạng thái.                                     |
-  | onInterruptionBegan                         | Sự kiện xảy ra ngắt, trình phát bị gián đoạn                                           |
-  | onInterruptionEnded                         | Sự kiện kết thúc ngắt                                                                  |
-  | onFileSavingWithUrl:andFilePath:withPercent | Sự kiện xảy ra khi quá trình lưu file kết thúc                                         |
-  | onFileSavedWithUrl:andFilePath              | Sự kiện xảy ra khi ứng dụng tải tài nguyên                                             |
-  | onError                                     | Sự kiện xảy ra khi có lỗi                                                              |
+  | Name                                        | Description                                                                          |
+  | ------------------------------------------- | ------------------------------------------------------------------------------------ |
+  | onLoadStart                                 | Sự kiện xảy ra khi quá trình tải dữ liệu bắt đầu                                     |
+  | onProgress                                  | Sự kiện xảy ra khi ứng dụng tải tài nguyên, hiển thị phần trăm file đã tải về        |
+  | onLoaded                                    | Sự kiện xảy ra khi quá trình tải dữ liệu kết thúc                                    |
+  | onDurationChange                            | Sự kiện xảy ra khi thời lượng phát thay đổi                                          |
+  | onTimeUpdate                                | Sự kiện xảy ra khi thời gian hiện tại (so với thời gian bắt đầu) thay đổi            |
+  | onEnded                                     | Sự kiện xảy ra khi phát đến cuối                                                     |
+  | onCanPlay                                   | Sự kiện xảy ra khi nội dung sẵn sàng để phát                                         |
+  | onStateChange                               | Sự kiện xảy ra khi trình phát thay đổi trạng thái.                                   |
+  | onInterruptionBegan                         | Sự kiện xảy ra ngắt, trình phát bị gián đoạn                                         |
+  | onInterruptionEnded                         | Sự kiện kết thúc ngắt                                                                |
+  | onFileSavingWithUrl:andFilePath:withPercent | Sự kiện xảy ra khi ứng dụng tải tài nguyên để lưu, hiển thị phần trăm file đã tải về |
+  | onFileSavedWithUrl:andFilePath              | Sự kiện xảy ra khi quá trình lưu file hoàn tất                                       |
+  | onError                                     | Sự kiện xảy ra khi có lỗi                                                            |
 
 # 5. Demo
