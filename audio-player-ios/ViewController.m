@@ -32,17 +32,17 @@
                 @"khen_mo_128kbps.mp3",
                 @"other_file.mp3",
                 @"https://pgdvqbnmsaobj.vcdn.cloud/mediahub/output/Kc4rW-SFUxl-C2Ddtwruh-khen-mo/mp3/128kbps.mp3",
-                @"https://pgdvqbnmsaobj.vcdn.cloud/mediahub/output/0dhE6y5f79TCDRJgmYaQG-loi-ru-ngan-xua-ho-quynh-huong/mp3/128kbps.mp3",
-                @"https://pgdvqbnmsaobj.vcdn.cloud/mediahub/output/RgrB0P9xMO51IxEmKYKuL-menh-mang-coi-thieu-anh-tho/mp3/128kbps.mp3",
-                @"https://pgdvqbnmsaobj.vcdn.cloud/mediahub/output/YIuCtGsv2c3thlX4TOYos-ninh-binh-ngay-ve-thuy-chi/mp3/128kbps.mp3",
-                @"https://pgdvqbnmsaobj.vcdn.cloud/mediahub/output/pIJy_6gG-DK_UK3EMIIGh-me-oi-con-muon-tro-ve-ngoc-anh/mp3/128kbps.mp3",
-                @"https://pgdvqbnmsaobj.vcdn.cloud/mediahub/output/w5RElq0Fr_JJBZA7eLDNd-hay-nhuom-gio-bien-khoi/mp3/128kbps.mp3",
+//                @"https://pgdvqbnmsaobj.vcdn.cloud/mediahub/output/0dhE6y5f79TCDRJgmYaQG-loi-ru-ngan-xua-ho-quynh-huong/mp3/128kbps.mp3",
+//                @"https://pgdvqbnmsaobj.vcdn.cloud/mediahub/output/RgrB0P9xMO51IxEmKYKuL-menh-mang-coi-thieu-anh-tho/mp3/128kbps.mp3",
+//                @"https://pgdvqbnmsaobj.vcdn.cloud/mediahub/output/YIuCtGsv2c3thlX4TOYos-ninh-binh-ngay-ve-thuy-chi/mp3/128kbps.mp3",
+//                @"https://pgdvqbnmsaobj.vcdn.cloud/mediahub/output/pIJy_6gG-DK_UK3EMIIGh-me-oi-con-muon-tro-ve-ngoc-anh/mp3/128kbps.mp3",
+//                @"https://pgdvqbnmsaobj.vcdn.cloud/mediahub/output/w5RElq0Fr_JJBZA7eLDNd-hay-nhuom-gio-bien-khoi/mp3/128kbps.mp3",
                 nil];
     
     otherUri = @"https://pgdvqbnmsaobj.vcdn.cloud/mediahub/output/0dhE6y5f79TCDRJgmYaQG-loi-ru-ngan-xua-ho-quynh-huong/mp3/128kbps.mp3";
     [self spinLogoView];
     [self handleKeyboardStateChange];
-    currentIndex = 0;
+    currentIndex = -1;
     smAudioPlayer = [[SigmaAudioPlayer alloc]init];
     [smAudioPlayer setDelegate:self];
     //    smAudioPlayer.loop = TRUE;

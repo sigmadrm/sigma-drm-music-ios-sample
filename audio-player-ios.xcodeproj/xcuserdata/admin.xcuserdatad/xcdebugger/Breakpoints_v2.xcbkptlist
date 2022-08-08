@@ -39,8 +39,8 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "12043633-62AD-4C56-A9D6-1C3B66C76A9B"
-            shouldBeEnabled = "Yes"
+            uuid = "A235DBEF-FB20-4188-8389-8EE39B44194A"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "audio-player-ios/ViewController.m"
